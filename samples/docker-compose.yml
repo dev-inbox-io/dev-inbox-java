@@ -1,0 +1,13 @@
+version: '3.8'
+
+services:
+  devinbox-java-sample:
+    build:
+      context: ..
+      dockerfile: samples/Dockerfile
+    environment:
+      - DEVINBOX_API_KEY=${DEVINBOX_API_KEY:-}
+    stdin_open: true
+    tty: true
+    network_mode: "host"  # Allow access to localhost APIs if needed
+

@@ -1,0 +1,9 @@
+target/
+*.class
+*.jar
+!target/dependency/*.jar
+.git
+.gitignore
+.idea
+.vscode
+

@@ -76,5 +76,5 @@ Make sure Docker Desktop is installed and running.
 - You can also enter it interactively when the sample prompts you
 
 ### Network issues
-If you need to access localhost APIs from within Docker, the docker-compose.yml uses `network_mode: "host"` which should allow access to `localhost:5062` or `https://api.devinbox.io`.
+The docker-compose.yml uses `network_mode: "host"` which allows access to `https://api.devinbox.io` (the official DevInbox API endpoint).
 

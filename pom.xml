@@ -6,8 +6,8 @@
     <packaging>jar</packaging>
     <name>devinbox-client</name>
     <version>1.0.0</version>
-    <url>https://github.com/openapitools/openapi-generator</url>
-    <description>OpenAPI Java</description>
+    <url>https://github.com/dev-inbox-io/dev-inbox-java</url>
+    <description>API client for managing test mailboxes and messages in DevInbox (OpenAPI 3.0)</description>
     <scm>
         <connection>scm:git:git@github.com:dev-inbox-io/dev-inbox-java.git</connection>
         <developerConnection>scm:git:git@github.com:dev-inbox-io/dev-inbox-java.git</developerConnection>
@@ -24,10 +24,10 @@
 
     <developers>
         <developer>
-            <name>OpenAPI-Generator Contributors</name>
-            <email>team@openapitools.org</email>
-            <organization>OpenAPITools.org</organization>
-            <organizationUrl>http://openapitools.org</organizationUrl>
+            <name>DevInbox Support</name>
+            <email>support@devinbox.io</email>
+            <organization>DevInbox</organization>
+            <organizationUrl>https://devinbox.io</organizationUrl>
         </developer>
     </developers>
 

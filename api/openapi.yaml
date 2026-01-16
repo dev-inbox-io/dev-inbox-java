@@ -421,9 +421,6 @@ components:
           default: true
           description: Whether the mailbox should be temporary or persistent.
           type: boolean
-      required:
-      - name
-      - projectName
     MailboxViewModel:
       example:
         password: password
@@ -502,12 +499,10 @@ components:
           nullable: true
           type: array
         subject:
-          type: object
           additionalProperties:
             type: string
           description: Parsed subject template parameters
         body:
-          type: object
           additionalProperties:
             type: string
           description: Parsed body template parameters

@@ -1,6 +1,5 @@
 .github/workflows/maven.yml
 .gitignore
-.openapi-generator-ignore
 .travis.yml
 README.md
 api/openapi.yaml
@@ -55,17 +54,3 @@ src/main/java/io/devinbox/client/model/MessagesViewModel.java
 src/main/java/io/devinbox/client/model/MessagesViewModelCount.java
 src/main/java/io/devinbox/client/model/ProblemDetails.java
 src/main/java/io/devinbox/client/model/ProblemDetailsStatus.java
-src/test/java/io/devinbox/client/api/MailboxesApiTest.java
-src/test/java/io/devinbox/client/api/MessagesApiTest.java
-src/test/java/io/devinbox/client/api/StatusApiTest.java
-src/test/java/io/devinbox/client/model/GetMessagesSkipParameterTest.java
-src/test/java/io/devinbox/client/model/MailboxCreateModelTest.java
-src/test/java/io/devinbox/client/model/MailboxViewModelTest.java
-src/test/java/io/devinbox/client/model/MessageCountResultCountTest.java
-src/test/java/io/devinbox/client/model/MessageCountResultTest.java
-src/test/java/io/devinbox/client/model/MessageParsedViewModelTest.java
-src/test/java/io/devinbox/client/model/MessageViewModelTest.java
-src/test/java/io/devinbox/client/model/MessagesViewModelCountTest.java
-src/test/java/io/devinbox/client/model/MessagesViewModelTest.java
-src/test/java/io/devinbox/client/model/ProblemDetailsStatusTest.java
-src/test/java/io/devinbox/client/model/ProblemDetailsTest.java
